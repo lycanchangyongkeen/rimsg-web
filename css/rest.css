@@ -68,7 +68,7 @@ body{
 /************************************parallax***************************************/
 /************************************parallax***************************************/
 .parallax {
-  background-image: url('/images/porsche black 2.jpg');
+  background-image: url("https://i.ibb.co/0DFVtDv/porsche-black-2.jpg");
   height: 300px;
 
   background-attachment: fixed;
@@ -121,37 +121,39 @@ font-weight:400;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.img1{
- height: 200px;
-  background-image: url("images/astonmartin.gif");
-  background-repeat: no-repeat;
-  background-size: 95% 60%;
-  background-position: center;
-  background-color: white;
-  margin: 0 auto;
 
+.img1 {
+  height: 200px;
+    background-image: url("https://i.ibb.co/zPZr45c/astonmartin.gif");
+    background-repeat: no-repeat;
+    background-color:white;
+    background-size: 95% 60%;
+    background-position: center;
+    margin-bottom:10px;
+    margin: 0 auto;
 }
 
+
 .img1:hover{
-    background-image: url("images/aston martin rim.png");
+    background-image: url("https://i.ibb.co/mbyTxD3/Aston-martin-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
 }
 
 .img2{
-height: 200px;
-  background-image: url("images/porsche-logo.jpg");
-  background-repeat: no-repeat;
-  background-color:white;
-  background-size: 100% 100%;
-  background-position: center;
-  margin: 0 auto;
+  height: 200px;
+    background-image: url("https://i.ibb.co/Bq8Spg5/porsche-logo.jpg");
+    background-repeat:no-repeat;
+    background-color: white;
+    background-size: 95% 90%;
+    background-position: center;
+    margin: 0 auto;
 
 }
 
 .img2:hover{
-    background-image: url("images/porsche rim.png");
+    background-image: url("https://i.ibb.co/x3dz4qT/porsche-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -160,7 +162,7 @@ height: 200px;
 
 .img3{
 height: 200px;
-  background-image: url("images/ferrari-logo.png");
+  background-image: url("https://i.ibb.co/BGCk8Hj/ferrari-logo.png");
   background-repeat:no-repeat;
   background-color: white;
   background-size: 95% 130%;
@@ -170,7 +172,7 @@ height: 200px;
 }
 
 .img3:hover{
-    background-image: url("images/ferrari rim.png");
+    background-image: url("https://i.ibb.co/j457R1J/ferrari-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -178,7 +180,7 @@ height: 200px;
 
 .img4{
 height: 200px;
-  background-image: url("images/bmw.png");
+  background-image: url("https://i.ibb.co/K2vj7bZ/bmw.png");
   background-repeat: no-repeat;
   background-size: 60% 80%;
   background-position: center;
@@ -188,7 +190,7 @@ height: 200px;
 }
 
 .img4:hover{
-    background-image: url("images/bmw rim.png");
+    background-image: url("https://i.ibb.co/0s9H860/bmw-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -196,7 +198,7 @@ height: 200px;
 
 .img5{
 height: 200px;
-  background-image: url("images/volkswagen.jpg");
+  background-image: url("https://i.ibb.co/YycF6Js/volkswagen.jpg");
   background-repeat: no-repeat;
   background-size: 80% 80%;
   background-position: center;
@@ -205,7 +207,7 @@ height: 200px;
 }
 
 .img5:hover{
-    background-image: url("images/volkswagen rim.png");
+    background-image: url("https://i.ibb.co/LZqtXTj/volkswagen-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -213,7 +215,7 @@ height: 200px;
 
 .img6{
 height: 200px;
-  background-image: url("images/merce.png");
+  background-image: url("https://i.ibb.co/2FRx3Dy/merce.png");
   background-repeat: no-repeat;
   background-size: 110% 90%;
   background-position: center;
@@ -222,7 +224,7 @@ height: 200px;
 }
 
 .img6:hover{
-    background-image: url("images/mercedes rim.png");
+    background-image: url("https://i.ibb.co/MS42s66/mercedes-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -230,7 +232,7 @@ height: 200px;
 
 .img7{
 height: 200px;
-  background-image: url("images/audi.png");
+  background-image: url("https://i.ibb.co/RPrvsXP/audi.png");
   background-repeat: no-repeat;
   background-size: 85% 90%;
   background-position: center;
@@ -239,7 +241,7 @@ height: 200px;
 }
 
 .img7:hover{
-    background-image: url("images/audi rim.png");
+    background-image: url("https://i.ibb.co/CnYYq2Q/audi-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -247,7 +249,7 @@ height: 200px;
 
 .img8{
 height: 200px;
-  background-image: url("images/mazda.jpeg");
+  background-image: url("https://i.ibb.co/GRt2xxJ/mazda.jpg");
   background-repeat: no-repeat;
   background-size: 70% 70%;
   background-position: center;
@@ -256,7 +258,7 @@ height: 200px;
 }
 
 .img8:hover{
-    background-image: url("images/mazda rim.png");
+    background-image: url("https://i.ibb.co/SVWbx3K/mazda-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -264,7 +266,7 @@ height: 200px;
 
 .img9{
 height: 200px;
-  background-image: url("images/honda.jpg");
+  background-image: url("https://i.ibb.co/HHJPnDH/honda.jpg");
   background-repeat: no-repeat;
   background-size: 101% 110%;
   background-position: center;
@@ -273,7 +275,7 @@ height: 200px;
 }
 
 .img9:hover{
-    background-image: url("images/honda rim.png");
+    background-image: url("https://i.ibb.co/R7c6JWW/honda-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -281,7 +283,7 @@ height: 200px;
 
 .img10{
 height: 200px;
-  background-image: url("images/toyota.jpg");
+  background-image: url("https://i.ibb.co/v3gwJnz/toyota.jpg");
   background-repeat: no-repeat;
   background-size: 70% 80%;
   background-position: center;
@@ -290,7 +292,7 @@ height: 200px;
 }
 
 .img10:hover{
-    background-image: url("images/toyota rim.png");
+    background-image: url("https://i.ibb.co/kX41QKF/toyota-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -298,7 +300,7 @@ height: 200px;
 
 .img11{
 height: 200px;
-  background-image: url("images/nissan.jpeg");
+  background-image: url("https://i.ibb.co/5M6xtsX/nissan.jpg");
   background-repeat: no-repeat;
   background-size: 60% 75%;
   background-position: center;
@@ -307,7 +309,7 @@ height: 200px;
 }
 
 .img11:hover{
-    background-image: url("images/nissan rim.png");
+    background-image: url("https://i.ibb.co/gRFnFcb/nissan-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -315,7 +317,7 @@ height: 200px;
 
 .img12{
 height: 200px;
-  background-image: url("images/subaru.png");
+  background-image: url("https://i.ibb.co/1TZpnLf/subaru.png");
   background-repeat: no-repeat;
   background-size: 80% 80%;
   background-position: center;
@@ -324,7 +326,7 @@ height: 200px;
 }
 
 .img12:hover{
-    background-image: url("images/subaru rim.png");
+    background-image: url("https://i.ibb.co/H2D3rVL/subaru-rim.png");
     background-size: 65% 90%;
     transition-timing-function: ease-in;
     transition:0.3s;
@@ -387,7 +389,7 @@ height: 200px;
 /************************************parallax***************************************/
 /************************************parallax***************************************/
 .parallax2 {
-  background-image: url('images/porsche black.jpg');
+  background-image: url("https://i.ibb.co/SN3YdKT/porsche-black.jpg");
   height: 580px;
   background-attachment: fixed;
   background-position: center;
