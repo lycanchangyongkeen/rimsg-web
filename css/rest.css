@@ -490,6 +490,10 @@ height:580px;
 
 }
 
+.card-img{
+  height :325px;
+}
+
 
 
 
@@ -528,5 +532,42 @@ footer{
 
 }
 
+}
 
+
+@media only screen and (max-width: 700px) {
+
+}
+
+
+@media only screen and (max-width: 650px) {
+  .card-img{
+    height :300px;
+  }
+
+  .card-cont{
+    height :300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-img{
+    height :250px;
+  }
+
+  .card-cont{
+    height :250px;
+  }
+
+  .parallax-text2 h2{
+    width: 100%;
+  }
+
+  .card2{
+    height: 600px;
+  }
+
+  .review-img{
+    display: none;
+  }
 }

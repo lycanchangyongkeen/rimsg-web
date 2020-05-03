@@ -1,7 +1,10 @@
 nav {
-  width: 86%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
 
 }
 
@@ -14,8 +17,6 @@ a {
 /*****************************************************************************/
 .header {
   background-color: white;
-
-
 }
 
 .logo {
@@ -24,6 +25,7 @@ a {
   padding-top: 10px;
 
   text-align: center;
+  z-index: -1;
 }
 
 .logo-img {
@@ -83,6 +85,7 @@ a {
 .nav-drop-down {
   text-align: right;
   display: none;
+  padding-left: 15px;
 }
 
 li :hover {
@@ -103,6 +106,11 @@ li :hover {
   width: 88%;
 
 
+}
+
+#carouselExampleIndicators {
+  padding-top: 180px;
+  z-index: -1;
 }
 
 .carousel-item:after {
@@ -155,15 +163,38 @@ li :hover {
 /*****************************************************************************/
 /*****************************************************************************/
 /*****************************************************************************/
+
+@media only screen and (max-width: 1000px) {
+  .carousel-inner{
+    height: 500px;
+  }
+
+  .intro-img{
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel-inner{
+    height: 400px;
+  }
+
+  .intro-img{
+    height: 400px;
+  }
+}
+
+
 @media only screen and (max-width: 650px) {
   nav {
     text-align: left;
-  
+
   }
   .li-nav {
     display: block;
 
   }
+
 
   .i{
     display: none;
@@ -172,10 +203,10 @@ li :hover {
   .hidden{
     display: none;
   }
- 
-  
+
   .nav-drop-down {
     display: inline;
+    margin-bottom: 200px;
   }
 
   .carousel-inner{
@@ -185,5 +216,19 @@ li :hover {
   .intro-img{
     height: 300px;
   }
+
+  .li-nav{
+    margin-top: 20px;
+    padding-left: 20px;
+  }
 }
 
+@media only screen and (max-width: 400px) {
+  .carousel-inner{
+    height: 200px;
+  }
+
+  .intro-img{
+    height: 200px;
+  }
+}
