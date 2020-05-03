@@ -543,6 +543,7 @@ footer{
 @media only screen and (max-width: 650px) {
   .card-img{
     height :300px;
+    width : 300px;
   }
 
   .card-cont{
