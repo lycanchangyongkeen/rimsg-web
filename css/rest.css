@@ -609,3 +609,50 @@ footer{
 
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .card-img{
+    width: 330px;
+    height :230px;
+  }
+
+
+  .card-cont2{
+    width: 0px;
+  }
+
+
+  .parallax-text2 h2{
+    width: 100%;
+  }
+
+  .card2{
+    height: 600px;
+  }
+
+  .card-1{
+    width: 100%;
+  }
+
+  .review-img{
+    width: 50px;
+  }
+
+  .about-us-item {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .vl {
+    height: 280px;
+  }
+
+  .parallax2 {
+    height: 1200px;
+  }
+
+  .parallax hr {
+    width: 90%;
+
+  }
+}
