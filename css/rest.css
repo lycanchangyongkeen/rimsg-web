@@ -558,6 +558,7 @@ footer{
   .card-img{
     height :250px;
     margin: 0 auto;
+
   }
   .misson{
     padding: 0;
@@ -570,8 +571,9 @@ footer{
   }
 
   .card-cont2{
-    height :250px;
+    height :200px;
     width: 440px;
+    margin-top:45px;
   }
 
 
@@ -619,11 +621,21 @@ footer{
 
   .card-cont2{
     width: 0px;
+    margin-top:0px;
+  }
+
+  .card-body {
+    margin-top:50px;
+    padding:0px;
+    margin-bottom:0px;
   }
 
 
   .parallax-text2 h2{
     width: 100%;
+  }
+  .parallax-text {
+    padding-top:65px;
   }
 
   .card2{
@@ -653,6 +665,8 @@ footer{
 
   .parallax hr {
     width: 90%;
+
+
 
   }
 }
