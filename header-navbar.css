@@ -109,8 +109,12 @@ li :hover {
 }
 
 #carouselExampleIndicators {
-  padding-top: 165px;
-  z-index: -1;
+  z-index: 0;
+
+}
+
+.carousel{
+  padding-top: 100px;
 }
 
 .carousel-item:after {
@@ -223,6 +227,14 @@ li :hover {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .carousel{
+    padding-top: 180px;
+  }
+
+}
+
+
 @media only screen and (max-width: 400px) {
   .carousel-inner{
     height: 200px;
@@ -230,5 +242,9 @@ li :hover {
 
   .intro-img{
     height: 200px;
+  }
+
+  .carousel{
+    padding-top: 180px;
   }
 }
