@@ -182,7 +182,7 @@ height: 200px;
 height: 200px;
   background-image: url("https://i.ibb.co/K2vj7bZ/bmw.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 55% 80%;
   background-position: center;
   background-color: white;
   margin: 0 auto;
@@ -330,6 +330,10 @@ height: 200px;
     background-size: 100%;
     transition-timing-function: ease-in;
     transition:0.3s;
+}
+
+.size:hover{
+  background-size: 80% 100%;
 }
 
 /************************************review***************************************/
@@ -552,7 +556,7 @@ footer{
 
 @media only screen and (max-width: 500px) {
   .card-img{
-    height :200px;
+    height :250px;
     margin: 0 auto;
   }
   .misson{
@@ -566,8 +570,8 @@ footer{
   }
 
   .card-cont2{
-    height :200px;
-    width: 310px;
+    height :250px;
+    width: 440px;
   }
 
 

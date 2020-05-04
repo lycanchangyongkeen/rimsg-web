@@ -227,6 +227,14 @@ li :hover {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .carousel{
+    padding-top: 180px;
+  }
+
+}
+
+
 @media only screen and (max-width: 400px) {
   .carousel-inner{
     height: 200px;
